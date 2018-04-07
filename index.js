@@ -20,7 +20,7 @@ module.exports = function hhp3wall(dispatch) {
 		}
 	});
 	
-	dispatch.hook('S_LOAD_TOPO', 1, (event) => {
+	dispatch.hook('S_LOAD_TOPO', 3, (event) => {
 		if(event.zone == HARROWHOLD){
 			hook('S_SPAWN_NPC', (event) => {
 				if(enabled && event.templateId == 3018 && event.huntingZoneId == 950)
