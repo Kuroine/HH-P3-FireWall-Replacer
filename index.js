@@ -22,7 +22,7 @@ module.exports = function hhp3wall(dispatch) {
 	
 	dispatch.hook('S_LOAD_TOPO', 3, (event) => {
 		if(event.zone == HARROWHOLD){
-			hook('S_SPAWN_NPC', 8, (event) => {
+			hook('S_SPAWN_NPC', 9, (event) => {
 				if(enabled && event.templateId == 3018 && event.huntingZoneId == 950)
 				{
 					//console.log("BLOCKED P3 WALL SPAWN");
@@ -37,7 +37,7 @@ module.exports = function hhp3wall(dispatch) {
 		{
 			unload()
 		}
-		//console.log("Entering zone: " + event.zone)
+		console.log("Entering zone: " + event.zone)
 	});
 		
 	/*dispatch.hook('sDespawnNpc', event => {
