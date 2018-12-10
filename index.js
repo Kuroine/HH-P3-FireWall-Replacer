@@ -1,11 +1,10 @@
 
-const	Command = require('command'),		
-		HARROWHOLD = 9950;
+const	HARROWHOLD = 9950;
 
 
 
 module.exports = function hhp3wall(dispatch) {
-	const command = Command(dispatch)
+	const command = dispatch.command
 	let enabled = true,
 		hooks = [];
 	
