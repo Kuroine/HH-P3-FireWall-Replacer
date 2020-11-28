@@ -3,6 +3,6 @@
     "name": "HH-P3-FireWall-Replacer",
     "author": "K",
     "description": "Description goes here.",
-    "servers": ["https://raw.githubusercontent.com/Kuroine"],
+    "servers": ["https://raw.githubusercontent.com/Kuroine/HH-P3-FireWall-Replacer/master"],
     "supportUrl": "https://github.com/Kuroine"
 }
