@@ -1,5 +1,8 @@
 {
-	"disableAutoUpdate": false,
-	"servers": ["https://raw.githubusercontent.com/Owyn/HH-P3-FireWall-Replacer/master/"],
-	"supportUrl": "https://github.com/Owyn/HH-P3-FireWall-Replacer/issues"
+    "disableAutoUpdate": false,
+    "name": "HH-P3-FireWall-Replacer",
+    "author": "K",
+    "description": "Description goes here.",
+    "servers": ["https://raw.githubusercontent.com/Kuroine"],
+    "supportUrl": "https://github.com/Kuroine"
 }
